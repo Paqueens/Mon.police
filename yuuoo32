@@ -1,0 +1,57 @@
+
+* {
+  margin:0px;
+  padding:0px;
+  font-family:"sans-serif";
+}
+
+body{
+  background-image:url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg");
+}
+
+nav {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:15px;
+}
+
+nav ul li{
+  display:inline-block;
+  justify-content:space-between;
+  margin-right:150px;
+  font-size:33px;
+}
+
+nav h2{
+  margin-right:120px;
+  font-size:25px;
+}
+nav button{
+  font-size:35px;
+  background-color:red;
+  border-radius:15px;
+  color:white;
+  margin:15px 12px;
+  padding:5px 5px;
+}
+span{
+  color:red;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+}
+
+.mare{
+  position:absolute;
+  padding:22px;
+  top:50%;
+  color:white;
+  font-size:20px;
+}
+
+input{
+  font-size:35px;
+}
